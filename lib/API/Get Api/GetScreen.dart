@@ -38,10 +38,10 @@ class _GetScreenState extends State<GetScreen> {
           builder: (context, snapshote) {
             if (snapshote.hasData) {
               return ListView.builder(
-                itemCount: postData.length,
-                itemBuilder: (context, index) {
-                return Card(child: Text(postData[index].title.toString()));
-              });
+                  itemCount: postData.length,
+                  itemBuilder: (context, index) {
+                    return Card(child: Text(postData[index].title.toString()));
+                  });
             } else {
               return const Text("Loading...");
             }
