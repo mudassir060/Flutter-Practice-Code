@@ -67,3 +67,16 @@ Widget textfieldProduct({
     ),
   );
 }
+
+
+  // Widget build(BuildContext context) {
+  //   final formkey = GlobalKey<FormState>();
+  //   return Consumer<AuthProvider>(
+  //     builder: (context, value, child) => SafeArea(
+  //       child: Scaffold(
+  //         body: Form(
+  //           key: formkey,
+
+
+  // on Run Function
+  // if (formkey.currentState!.validate()) {
