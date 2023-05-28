@@ -12,6 +12,8 @@ class providerScreen extends StatefulWidget {
 class _providerScreenState extends State<providerScreen> {
   @override
   Widget build(BuildContext context) {
+      // var provider = Provider.of<Counter>(context);
+
     return Consumer<Counter>(builder: (context, value, child) {
       return Text(value.count.toString());
     });

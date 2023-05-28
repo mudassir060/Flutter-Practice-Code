@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+// import 'package:provider/provider.dart';
 
 import 'API/Get Api/GetScreen.dart';
-import 'Provider/provider/countProvider.dart';
+// import 'Provider/provider/countProvider.dart';
 
 void main() {
   // MultiProvider(
@@ -26,5 +26,16 @@ class MyApp extends StatelessWidget {
       ),
       home: const GetScreen(),
     );
+    // return ChangeNotifierProvider(
+    //   create: (_) => Counter(),
+    //   child: MaterialApp(
+    //     title: 'Flutter Demo',
+    //     theme: ThemeData(
+    //       colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+    //       useMaterial3: true,
+    //     ),
+    //     home: const GetScreen(),
+    //   ),
+    // );
   }
 }
